@@ -1,5 +1,7 @@
 import React from 'react';
+import { GoogleRecaptcha } from '../../components/GoogleRecaptcha';
 
+// we can not userRouter in nextjs 13 for props url
 interface NewsPageProps{
   params:{slug:string}
 }
@@ -12,7 +14,10 @@ const{slug}=params;
   }
 
   return (
-    <div>ItemNews {slug}</div>
+    <div>ItemNews {slug}
+    
+    <GoogleRecaptcha/>
+    </div>
   );
 }
 

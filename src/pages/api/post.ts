@@ -2,7 +2,7 @@ import type {NextApiRequest, NextApiResponse} from 'next';
 import {PrismaClient} from '@prisma/client';
 const prisma = new PrismaClient();
 
-export default async function usersServices(
+export default async function postsServices(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
