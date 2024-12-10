@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleRecaptcha } from '../../components/GoogleRecaptcha';
+import { GoogleRecaptcha } from '../../../components/GoogleRecaptcha';
 
 // we can not userRouter in nextjs 13 for props url
 interface NewsPageProps{
